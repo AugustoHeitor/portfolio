@@ -1,0 +1,27 @@
+.pageTransitionDown{
+    animation: down 1s ease-in-out;
+}
+
+.pageTransitionUp{
+    animation: up 1s ease-in-out;
+}
+
+
+@keyframes up {
+  0% {
+    transform: translate(0px, -2000px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+
+@keyframes down {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, 2000px);
+  }
+}
